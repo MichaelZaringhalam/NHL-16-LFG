@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `user` (
+  `username` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `email` varchar(80) NOT NULL,
+  PRIMARY KEY (`username`)
+)
