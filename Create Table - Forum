@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS `forum` (
+  `rowid` int(11) NOT NULL AUTO_INCREMENT,
+  `user` varchar(20) NOT NULL,
+  `tag` varchar(16) NOT NULL,
+  `lfg` varchar(17) NOT NULL,
+  `console` varchar(8) NOT NULL,
+  `mic` tinyint(1) NOT NULL,
+  `level` int(11) NOT NULL,
+  `position` varchar(2) NOT NULL,
+  `description` varchar(150) NOT NULL,
+  `time` timestamp NOT NULL,
+  PRIMARY KEY (`rowid`)
+)
